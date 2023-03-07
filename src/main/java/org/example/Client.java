@@ -1,9 +1,10 @@
 package org.example;
 
-public class Manager extends Employee implements Authenticated {
+public class Client implements Authenticated {
+
     private AuthenticationHelper helper;
 
-    public Manager() {
+    public Client() {
         this.helper = new AuthenticationHelper();
     }
 

@@ -2,7 +2,7 @@ package org.example;
 
 public class InternalSystem {
     private int password = 2222;
-    public void authenticate(AuthenticatedEmployee employee) {
+    public void authenticate(Authenticated employee) {
         boolean authenticated = employee.authenticate(this.password);
 
         if (authenticated) {
